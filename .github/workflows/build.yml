@@ -4,7 +4,11 @@
 # against bad commits.
 
 name: build
-on: [pull_request, push]
+on:
+  pull_request:
+  push:
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -30,6 +34,11 @@ jobs:
       - name: build
         run: ./gradlew build
       - name: capture build artifacts
+      - name: upload jar to release
+        if: ${{ github.event_name == 'release' && matrix.java == '21' }}
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/libs/*.jar      
         if: ${{ matrix.java == '21' }} # Only upload artifacts built from latest java
         uses: actions/upload-artifact@v4
         with:
