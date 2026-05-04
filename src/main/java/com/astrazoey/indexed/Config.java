@@ -466,10 +466,45 @@ public class Config {
 
         //Farmer's Delight
         defaultConfig.put("farmersdelight:flint_knife", EnchantingTypes.STONE_TIER.getEnchantabilityConfig());
+        defaultConfig.put("farmersdelight:copper_knife", EnchantingTypes.COPPER_TIER.getEnchantabilityConfig());
         defaultConfig.put("farmersdelight:iron_knife", EnchantingTypes.IRON_TIER.getEnchantabilityConfig());
         defaultConfig.put("farmersdelight:golden_knife", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
         defaultConfig.put("farmersdelight:diamond_knife", EnchantingTypes.DIAMOND_TIER.getEnchantabilityConfig());
         defaultConfig.put("farmersdelight:netherite_knife", EnchantingTypes.NETHERITE_TIER.getEnchantabilityConfig());
+        defaultConfig.put("farmersdelight:skillet", EnchantingTypes.IRON_TIER.getEnchantabilityConfig());
+
+        //More Delight
+        defaultConfig.put("moredelight:wooden_knife", EnchantingTypes.WOOD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("moredelight:stone_knife", EnchantingTypes.STONE_TIER.getEnchantabilityConfig());
+
+        //Create
+        defaultConfig.put("create:sand_paper", EnchantingTypes.GENERIC.getEnchantabilityConfig());
+        defaultConfig.put("create:red_sand_paper", EnchantingTypes.GENERIC.getEnchantabilityConfig());
+        defaultConfig.put("create:super_glue", EnchantingTypes.GENERIC.getEnchantabilityConfig());
+        defaultConfig.put("create:copper_diving_helmet", EnchantingTypes.COPPER_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:copper_backtank", EnchantingTypes.COPPER_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:copper_diving_boots", EnchantingTypes.COPPER_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:netherite_diving_helmet", EnchantingTypes.NETHERITE_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:netherite_backtank", EnchantingTypes.NETHERITE_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:netherite_diving_boots", EnchantingTypes.NETHERITE_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:cardboard_helmet", EnchantingTypes.WOOD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:cardboard_chestplate", EnchantingTypes.WOOD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:cardboard_leggings", EnchantingTypes.WOOD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("create:cardboard_boots", EnchantingTypes.WOOD_TIER.getEnchantabilityConfig());
+
+        //Friends & Foes
+        defaultConfig.put("friendsandfoes:wildfire_crown", EnchantingTypes.STONE_TIER.getEnchantabilityConfig());
+
+        //Rose Gold Equipment
+        defaultConfig.put("rosegoldequipment:rose_golden_sword", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_pickaxe", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_shovel", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_axe", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_hoe", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_helmet", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_chestplate", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_leggings", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
+        defaultConfig.put("rosegoldequipment:rose_golden_boots", EnchantingTypes.GOLD_TIER.getEnchantabilityConfig());
 
         //Consistency+
         defaultConfig.put("consistency_plus:turtle_chestplate", EnchantingTypes.TURTLE_HELMET.getEnchantabilityConfig());
